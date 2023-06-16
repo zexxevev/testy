@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>maket</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ПОРТФОЛИО</h1>
+         
+        <div class="chel">
+            <div class="left">
+                <img src="img/chel1.png" alt="">
+            </div>
+
+            <div class="right">
+                <h2>ВАСИЛИЙ ВИКТОРОВИЧ ЛЕНТОЧКИН</h2>
+                <p class="dir">Директор по развитию</p>
+                <p>Тут что- то написано про меня (пока у меня нет структуры в голове)</p>
+                <p>Регалии, достижения, компетенции</p>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="sliders">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="img/sl1.png" alt=""></div>
+                      <div class="swiper-slide"><img src="img/sl2.png" alt=""></div>
+                      <div class="swiper-slide"><img src="img/sl3.png" alt=""></div>
+                      <div class="swiper-slide"><img src="img/sl4.png" alt=""></div>
+                    </div>
+                   
+                </div>
+                <div class="buttn">
+                    <div class="swiper-button-prev"><img src="img/left.png" alt=""></div>
+                    <div class="swiper-button-next"><img src="img/right.png" alt=""></div>
+                </div>
+            </div>
+        </div> 
+
+
+
+        <div class="centr">
+            <div class="central">
+            <div class="pyt">
+                    <h3>МОЙ ПУТЬ</h3>
+                    <ol>
+                       <li>У клиента было рабочее кассовое место с учетной системой Artix.</li>
+                       <li>Складской учет не был синхронизирован с системой и велся в ручном режиме на бумаге.</li>
+                       <li>Установленное оборудование устарело, требовало проверки и возможной замены.</li>
+                    </ol>
+            </div>
+
+            <div class="yspeh">
+                <h3>УСПЕШНЫЕ ПРОЕКТЫ</h3>
+                <ol>
+                   <li>У клиента было рабочее кассовое место с учетной системой Artix.</li>
+                   <li>Складской учет не был синхронизирован с системой и велся в ручном режиме на бумаге.</li>
+                   <li>Установленное оборудование устарело, требовало проверки и возможной замены.</li>
+                </ol>
+            </div>
+
+            <div class="plany">
+                <h3 class="pl">ПЛАНЫ И АМБИЦИИ</h3>
+                <ol>
+                   <li>У клиента было рабочее кассовое место с учетной системой Artix.</li>
+                   <li>Складской учет не был синхронизирован с системой и велся в ручном режиме на бумаге.</li>
+                   <li>Установленное оборудование устарело, требовало проверки и возможной замены.</li>
+                </ol>
+            </div>
+
+            <div class="nagrad">
+                <h3>Награды</h3>
+                <div class="sliders-2">
+                <div class="swiper-2">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide swiper-slide-2"><img src="img/gr1.png" alt=""></div>
+                      <div class="swiper-slide swiper-slide-2"><img src="img/gr2.png" alt=""></div>
+                      <div class="swiper-slide swiper-slide-2"><img src="img/gr3.png" alt=""></div>
+                    </div>
+                   
+                </div>
+                <div class="buttn-2">
+                    <div class="swiper-button-prev-2"><img src="img/left2.png" alt=""></div>
+                    <div class="swiper-button-next-2"><img src="img/right2.png" alt=""></div>
+                </div>
+            </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="footer__container">
+            <nav class="footer__links">
+                <a href="#"><img src="img/icons/whatsapp.png" alt="#"></a>
+                <a href="#"><img src="img/icons/vk.png" alt="#"></a>
+                <a href="#"><img src="img/icons/telegram.png" alt="#"></a>
+                <a href="#"><img src="img/icons/email.png" alt="#"></a>
+            </nav>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script>
+const swiper = new Swiper('.swiper', {
+    loop: false,
+    slidesPerView: 3,
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+const swiper2 = new Swiper('.swiper-2', {
+    loop: false,
+    slidesPerView: 'auto',
+    navigation: {
+    nextEl: '.swiper-button-next-2',
+    prevEl: '.swiper-button-prev-2',
+  },
+});
+</script>
+
+</body>
+</html>
